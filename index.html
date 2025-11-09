@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Chatbot for College Queries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 style="text-align: center;">Smart College Chatbot 🤖</h1>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Smart Chatbot for College Queries</h2>
+    <p>Ask anything about admissions, fees, courses, hostel, or placements!</p>
+  </section>
+
+  <!-- LOGIN -->
+  <section id="login" class="auth-section">
+    <h2>Login</h2>
+    <form id="login-form" class="auth-form">
+      <label>Email:</label>
+      <input type="email" id="login-email" required placeholder="Enter your email">
+
+      <label>Password:</label>
+      <input type="password" id="login-password" required placeholder="Enter your password">
+
+      <button type="button" id="login-btn" disabled>Login</button>
+    </form>
+  </section>
+
+  <!-- REGISTER -->
+  <section id="register" class="auth-section">
+    <h2>Register (New User)</h2>
+    <form id="register-form" class="auth-form">
+      <label>Full Name:</label>
+      <input type="text" id="reg-name" required placeholder="Enter your full name">
+
+      <label>Email:</label>
+      <input type="email" id="reg-email" required placeholder="Enter your email">
+
+      <label>Password:</label>
+      <input type="password" id="reg-password" required placeholder="Create a password">
+
+      <label>Confirm Password:</label>
+      <input type="password" id="reg-confirm" required placeholder="Confirm your password">
+
+      <button type="button" id="reg-btn" disabled>Register</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Smart Chatbot Project</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
